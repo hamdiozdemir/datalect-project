@@ -1,0 +1,47 @@
+{
+    "welcome": "Hoşgeldin",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu!",
+    "save": "Kaydet",
+    "saved": "Kaydedildi",
+
+    "homepage": "Anasayfa",
+    "login": "Giriş",
+    "dontHaveAccount": "Henüz bir hesabın yok mu?",
+    "forgotPassword": "Parolanızı mı unuttunuz?",
+    "resetPassword": "Parolamı Sıfırla",
+    "signUp": "Kayıt Ol",
+    "email": "E-Posta",
+    "password": "Parola",
+    "name": "Adınız",
+    "passwordAgain": "Tekrar Parola",
+    "passwordNotMatching": "Parolanız eşleşmiyor",
+    "education": "Öğrenim",
+    "highSchool": "Lise",
+    "asscoiateDegree": "Önlisans",
+    "bachelor": "Lisans",
+    "master": "Yüksek Lisans",
+    "phd": "Doktora",
+    "title": "Ünvan",
+    "student": "Öğrenci",
+    "expert": "Uzman",
+    "doctorate": "Doktor Öğretim Üyesi",
+    "assocProf": "Doç. Dr.",
+    "proffesor": "Profesör" ,
+    "country": "Country",
+    "termAccept": "Kullanım koşullarını okudum, kabul ediyorum.",
+    "optional": "Opsiyonel",
+    
+    "bulletins": "Bültenler",
+    "keywords": "Anahtar Kelimelerim",
+    "addKeyword": "Anahtar Kelime Ekle",
+
+    "all": "Hepsi",
+    "earlyChildhood": "Erken Çocukluk Eğitimi",
+    "specialEducation": "Özel Eğitim",
+    "psychology": "Psikoloji",
+
+    "selectKeywordDate": "Lütfen yayınları görüntülemek için anahtar kelime ve tarih seçin."
+    
+
+}

@@ -1,0 +1,621 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nameSurname": "Name Surname",
+      "email": "hamdiozdemir@example.com",
+      "password": "Pass1234",
+      "is_staff": false,
+      "membership": "regular"
+    },
+    {
+      "nameSurname": "Hamdi Özdemi",
+      "email": "hamdi@example.com",
+      "password": "12345678",
+      "is_staff": false,
+      "membership": "Regular",
+      "id": 2
+    },
+    {
+      "nameSurname": "Mendy Transfer",
+      "email": "mendy@exampl.com",
+      "password": "123456789",
+      "is_staff": false,
+      "membership": "Regular",
+      "id": 3
+    },
+    {
+      "nameSurname": "Begum Erdoğdu",
+      "email": "berdogdu@gmail.com",
+      "password": "12345678",
+      "is_staff": false,
+      "membership": "Regular",
+      "id": 4
+    },
+    {
+      "nameSurname": "Ece Tezel",
+      "email": "ecetez@gmail.com",
+      "password": "12345678",
+      "is_staff": false,
+      "membership": "Regular",
+      "id": 5
+    },
+    {
+      "nameSurname": "Hamdi2",
+      "email": "hamdi@example.com",
+      "password": "12345678",
+      "rePassoword": "12345678",
+      "country": "American Samoa",
+      "degree": "Yüksek Lisans",
+      "title": "assoc-dr",
+      "agreement": true,
+      "id": 6
+    },
+    {
+      "nameSurname": "EdaG",
+      "email": "edaguldr@example.com",
+      "password": "12345678",
+      "rePassoword": "12345678",
+      "country": "Turkey",
+      "degree": "Yüksek Lisans",
+      "title": "student",
+      "agreement": true,
+      "id": 7
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "My Research"
+    }
+  ],
+  "questionnaires": [
+    {
+      "id": 1,
+      "title": "Demografik Bilgi Formu",
+      "dimensions": []
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 1,
+      "title": "Sosyal Beceri",
+      "items": []
+    },
+    {
+      "id": 2,
+      "title": "Harcanan Süre",
+      "items": []
+    },
+    {
+      "id": 3,
+      "title": "Matematik Becerileri",
+      "items": []
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "type": "open-ended",
+      "payload": {
+        "body": "Öğrenim Durumu"
+      }
+    },
+    {
+      "id": 2,
+      "type": "likert",
+      "payload": {
+        "body": "Keyifleriniz nasıl?",
+        "options": [
+          {
+            "İyi": 3,
+            "Normal": 2,
+            "Kötü": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "type": "Numeric",
+      "payload": {
+        "body": "Kaç Saat harcarsın?"
+      }
+    }
+  ],
+  "logins": [
+    {
+      "id": 1,
+      "email": "begum@datalect.com",
+      "password": "12345678"
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "email": "hamdi@example.com",
+      "password": "hebelelubele1234",
+      "id": 3
+    },
+    {
+      "userEmail": "ddeneme@example.com",
+      "userPassword": "Newpassword123",
+      "id": 4
+    },
+    {
+      "userEmail": "sşldfsdfw@example.com",
+      "userPassword": "asdfsdlkjf wklejf ",
+      "id": 5
+    },
+    {
+      "userEmail": "ananas@gmail.com",
+      "userPassword": "Ananasghs24",
+      "id": 6
+    },
+    {
+      "userEmail": "hamdi@maltepe.com",
+      "userPassword": "anansdkj452",
+      "id": 7
+    },
+    {
+      "userEmail": "ghjjnkm",
+      "userPassword": "jhkdlfs",
+      "id": 8
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 9
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 10
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 11
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 12
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 13
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 14
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 15
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 16
+    },
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 17
+    }
+  ],
+  "populars": [
+    {
+      "id": 1,
+      "title": "This is the first article around here.",
+      "date": "May, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Early Childhood"
+    },
+    {
+      "id": 2,
+      "title": "Another lorem ipsum article",
+      "date": "April, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Early Childhood"
+    },
+    {
+      "id": 3,
+      "title": "Whats happening in early years? Answer here",
+      "date": "June, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Early Childhood"
+    },
+    {
+      "id": 4,
+      "title": "Is it really special education! Last month updates",
+      "date": "June, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Special Education"
+    },
+    {
+      "id": 5,
+      "title": "Resielience is resing in researches, falling in results.",
+      "date": "August, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Psychology"
+    },
+    {
+      "id": 6,
+      "title": "Resielience is resing in researches, falling in results.",
+      "date": "August, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Psychology"
+    },
+    {
+      "id": 7,
+      "title": "Resielience is resing in researches, falling in results.",
+      "date": "August, 2023",
+      "imageUrl": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398.png",
+      "field": "Psychology"
+    }
+  ],
+  "bulletins": [
+    {
+      "id": 1,
+      "field": "Early Childhood",
+      "month": "May, 2023",
+      "title": "When does preschool matter?",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6r6pbwd1d3p_9OV9w2tq9ZDxMixllhOwU9w&usqp=CAU",
+      "body": [
+        "This study investigated the role of emotion regulation in children's early academic success using a sample of 325 kindergarteners. A mediational analysis addressed the potential mechanisms through which emotion regulation relates to children's early academic success. Results indicated that emotion regulation was positively associated with teacher reports of children's academic success and productivity in the classroom and standardized early literacy and math achievement scores. Contrary to predictions, child behavior problems and the quality of the student teacher relationship did not mediate these relations. However, emotion regulation and the quality of the student–teacher relationship uniquely predicted academic outcomes even after accounting for IQ. Findings are discussed in terms of how emotion regulation skills facilitate children's development of a positive student–teacher relationship as well as cognitive processing and independent learning behavior, all of which are important for academic motivation and success."
+      ]
+    },
+    {
+      "id": 2,
+      "field": "Special Education",
+      "month": "May, 2023",
+      "title": "Preschool inclusion: What we know and where we go from here",
+      "imageUrl": "https://cdn.takingcarababies.com/containers/assets/toddler-with-newborn-sibling.jpg/6a2b1cca1afa07a76ed09961eddb73ac.jpg",
+      "body": [
+        "1.1. Self-regulation and social–emotional competence in children with EBP",
+        "When conceptualizing the host of factors that contribute to the challenges that children with EBP face upon school entry, it is important to examine the self-regulation deficits that are inherently part of EBP. Broadly speaking, self-regulation refers to the skills and processes associated with the direction, planning, and control of attention and/or cognition, emotion, and behavior/action that are necessary for optimal adaptive functioning (Calkins, 2007). Children with EBP are more likely to exhibit self-regulation difficulties across behavioral, attentional, and/or cognitive, and emotional domains compared to typically developing children (Barkley, 2010, Calkins, 2007).",
+        "A related, yet distinct, construct to self-regulation is social–emotional competence, which includes children's social skills, social problem solving, emotional expressiveness, and understanding or knowledge of emotions (Denham, 2006). Children's social competence typically involves active enactment of prosocial behaviors such as sharing, helping others, and expressing concerns for others (Eisenberg, Spinrad, & Sadovsky, 2006). Children's emotion understanding and/or knowledge includes the ability to recognize and verbally label various internal states (Denham, 2006). Similar to the self-regulation deficits previously mentioned, young children with EBP are also more likely to have lower levels of social–emotional competence (DuPaul, McGoey, Eckert, & VanBrakle, 2001), perform more poorly on emotion recognition and/or knowledge tasks (Dyck, Ferguson, & Shochet, 2001), and are more likely to demonstrate deficits in social skills (see Nixon, 2001 for a review).",
+        "1.2. Importance of self-regulation and social–emotional competence for school readiness",
+        "As outlined by Rimm-Kaufman and Pianta's (2000) Ecological and Dynamic Model of Transition, the kindergarten environment is markedly different from that of preschool with novel academic and social demands under higher expectations of autonomy. This can be challenging and/or stressful for children as they must then use their self-regulation skills and social–emotional competence to learn and effectively interact with teachers and peers (Rimm-Kaufman & Pianta, 2000). Indeed, research has linked higher levels of social–emotional competence with more positive student-teacher relationships (Pianta & Stuhlman, 2004) and greater academic skills, even when earlier academic success is taken into consideration (Denham, 2006, Eisenberg et al., 2010)."
+      ]
+    },
+    {
+      "id": 3,
+      "field": "Early Childhood",
+      "month": "June, 2023",
+      "title": "The State of Preschool 2010: State Preschool Yearbook.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1373099163-64c7f637dc93b.jpg",
+      "body": [
+        "1.1. Classroom aggression as a moderator of the development of individual aggression",
+        "Most previous studies of the impact of classroom-level aggression on the development of individual aggression focused on classroom-level main effects without considering differences in initial individual aggression. However, the processes that serve to explain classroom-level effects are likely to interact with the child's initial level of aggression, suggesting a differential susceptibility of children with initially low and high levels of aggression to the overall level of aggression they encounter in their classroom. Social learning theory suggests that in classrooms with a high collective level of aggression, children with initially low levels of aggression learn to become more aggressive through observing their more aggressive peers, whereas the initially more aggressive individuals in these classrooms are less affected because they have already acquired this behavioral repertoire. On the other hand, the affiliation of aggressive children with deviant peers may lead to a stronger effect of a highly aggressive classroom environment on children who score relatively high on aggression to begin with. These two explanations suggest differential predictions on whether children with initially low or high levels of aggressive behavior may be more affected by a high level of aggression in their classroom.",
+        "************",
+        "Interactive effects may also be expected in classrooms with a low overall level of aggression. In these classrooms, children with a low level of aggression are likely to stay at this low level, as suggested by social learning theory as well as the general tendency to affiliate with like-minded peers. For highly aggressive children, there are again competing predictions: They may reduce their aggressive behavior in order to avoid negative social consequences, such as peer rejection; alternatively, their high level of aggression may marginalize them in their nonaggressive peer group, driving them to selectively affiliate with more aggressive peers (Patterson et al., 1989). This, in turn, makes them less likely to be affected by positive group influences (Yarnell, Pasch, Brown, Perry, & Komro, 2014), thereby stabilizing their aggressive behavior.",
+        "Studies that examined the interplay of classroom-level and individual-level variables have found evidence for significant cross-level interactions. For example, Brendgen, Girard, Vitaro, Dionne, and Boivin (2013) found that the link between the genetic disposition for physical aggression and aggressive behavior in fourth grade was moderated by the acceptance of physical aggression in the classroom. A significant child-by-classroom interactive effect on aggression was also found in a 6-year longitudinal study by Kellam et al. (1998), who found that highly aggressive first-grade boys who were in classrooms with a higher level of aggression had higher odds of being severely aggressive in sixth grade compared to aggressive boys in less aggressive classrooms. By contrast, among boys with initially low levels of aggressive behavior, the risk of being aggressive in middle school was unrelated to the level of aggression in the classroom community. These results suggest that highly aggressive boys are particularly susceptible to influences of the classroom environment."
+      ]
+    },
+    {
+      "id": 4,
+      "field": "Psychology",
+      "month": "May, 2023",
+      "title": "A theoretical review of psychological resilience: Defining resilience and resilience research over the decades.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBu4j5VJNdSrMLwgVTVdZFAe_PoY68cvuPpQ&usqp=CAU",
+      "body": [
+        "The present longitudinal research demonstrates robust contributions of early prosocial behavior to children's developmental trajectories in academic and social domains. Both prosocial and aggressive behaviors in early childhood were tested as predictors of academic achievement and peer relations in adolescence 5 years later. Prosocialness included cooperating, helping, sharing, and consoling, and the measure of antisocial aspects included proneness to verbal and physical aggression. Prosocialness had a strong positive impact on later academic achievement and social preferences, but early aggression had no significant effect on either outcome. The conceptual model accounted for 35% of variance in later academic achievement, and 37% of variance in social preferences. Additional analysis revealed that early academic achievement did not contribute to later academic achievement after controlling for effects of early prosocialness. Possible mediating processes by which prosocialness may affect academic achievement and other socially desirable developmental outcomes are proposed.",
+        "Achenbach T.M., Edelbrock C. (1986). Manual for the Teacher's Report Form and teacher version of the Child Behavior Profile. Burlington: University of Vermont Press."
+      ]
+    },
+    {
+      "id": 5,
+      "field": "Special Education",
+      "month": "July, 2023",
+      "title": "Social constructivist theory and principles of inclusion: Challenges for early childhood special education",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpBudARIpP0sAgzhVi99d0hFxvynIj-3pHgg&usqp=CAU",
+      "body": [
+        "Introduction",
+        "The COVID-19 pandemic as a public health issue has spread to the rest of the world. Although the wellbeing and emotional resilience of healthcare professionals are key components of continuing healthcare services during the COVID-19 pandemic, healthcare professionals have been observed in this period to experience serious psychological problems and to be at risk in terms of mental health. Therefore, this study aims to probe psychological resilience of healthcare workers. The findings of this study showed that in order to raise psychological resilience of healthcare professionals working during the COVID-19 pandemic their quality of sleep, positive emotions and life satisfaction need to be enhanced. Psychological resilience levels of healthcare workers in their later years were found to be higher. Doctors constitute the group with the lowest levels of psychological resilience among healthcare workers. The current study is considered to have contributed to the literature in this regard. Primary needs such as sleep which are determinants of quality of life, life satisfaction and psychological resilience should be met.",
+        "The COVID-19 pandemic, which emerged in the Chinese city of Wuhan in December 2019 and has since spread to the rest of the world, has been described as a public health issue causing international concerns. The COVID-19 disease has caused and still causes health problems in over 3.3 million people worldwide as of May 3, 2020 (World Health Organization, 2020). Healthcare professionals have been observed in this period to experience serious psychological problems and to be at risk in terms of mental health (Black Dog Institute, 2020; Inchausti et al., 2020; Lai et al., 2020). Defined as a global pandemic, COVID-19 can lead to stress, apprehension and anxiety. Mood management is required to avoid exacerbation of stress and anxiety (Australian Psychological Society, 2020). It is essential that potential psychosocial impact of COVID-19 on healthcare workers is investigated (Arden & Chilcot, 2020)."
+      ]
+    }
+  ],
+  "currentKeywords": [
+    {
+      "id": 1,
+      "name": "academic"
+    },
+    {
+      "id": 2,
+      "name": "autism"
+    },
+    {
+      "id": 3,
+      "name": "mathematic"
+    },
+    {
+      "id": 4,
+      "name": "emotional"
+    },
+    {
+      "id": 5,
+      "name": "social"
+    },
+    {
+      "id": 6,
+      "name": "resilience"
+    },
+    {
+      "id": 7,
+      "name": "hazırbulunuşluk"
+    },
+    {
+      "id": 8,
+      "name": "mizaç"
+    },
+    {
+      "id": 9,
+      "name": "teaching"
+    },
+    {
+      "id": 10,
+      "name": "adult"
+    }
+  ],
+  "myKeywords": [
+    {
+      "id": 1,
+      "name": "mathematic",
+      "dates": [
+        {
+          "id": 1,
+          "date": "April, 2023",
+          "contents": [
+            {
+              "id": 1,
+              "title": "Makale Başlık 1",
+              "authors": "Yazar 1, Yazar 2",
+              "journal": "Journal 1",
+              "volume": 5,
+              "issue": 8,
+              "abstract": "Buralar hep özet olacak...."
+            },
+            {
+              "id": 2,
+              "title": "Makale Başlık 2",
+              "authors": "Yazar 1, Yazar 2",
+              "journal": "Journal 2",
+              "volume": 7,
+              "issue": 3,
+              "abstract": "Buralar hep özet olacak.... dadasd aa as  lorem105"
+            },
+            {
+              "id": 3,
+              "title": "Makale Başlık 3",
+              "authors": "Yazar 1, Yazar 2, Yazar 4, Yazar8",
+              "journal": "Journal 87",
+              "volume": 2,
+              "issue": 6,
+              "abstract": "Bu öözetler boşuna le boşuna.... dadasd aa as  lorem105"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "date": "May, 2023",
+          "contents": [
+            {
+              "id": 1,
+              "title": "Math mayıs 2023",
+              "authors": "Yazar 1, Yazar 2",
+              "journal": "Journal 1",
+              "volume": 5,
+              "issue": 8,
+              "abstract": "Buralar hep özet olacak...."
+            },
+            {
+              "id": 2,
+              "title": "Math mayıs 2023 - 2",
+              "authors": "Yazar 1, Yazar 2",
+              "journal": "Journal 2",
+              "volume": 7,
+              "issue": 3,
+              "abstract": "Buralar hep özet olacak.... dadasd aa as  lorem105"
+            },
+            {
+              "id": 4,
+              "title": "Makale Başlık 3",
+              "authors": "Yazar 1, Yazar 2, Yazar 4, Yazar8",
+              "journal": "Journal 87",
+              "volume": 2,
+              "issue": 6,
+              "abstract": "Bu öözetler boşuna le boşuna.... dadasd aa as  lorem105"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "date": "June, 2023",
+          "contents": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "autism",
+      "dates": [
+        {
+          "id": 1,
+          "date": "April, 2023",
+          "contents": [
+            {
+              "id": 1,
+              "title": "Otizm april 2023",
+              "authors": "Yazar 1, Yazar 2",
+              "journal": "Journal 1",
+              "volume": 5,
+              "issue": 8,
+              "abstract": "Buralar hep özet olacak... d sdfsd sdf sdfsdfwe wef welk wlekj wef ."
+            },
+            {
+              "id": 9,
+              "title": "Otizm april 2023 22222",
+              "authors": "Yazar 1, Yazar 2, Yazarlamızızzzzz",
+              "journal": "Journal 5",
+              "volume": 5,
+              "issue": 8,
+              "abstract": "Buralar hep özet olacak... d sdfsd sdf sdfsdfwe wef welk wlekj wef ."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "date": "May, 2023"
+        },
+        {
+          "id": 3,
+          "date": "June, 2023"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "resilience",
+      "dates": [
+        {
+          "id": 1,
+          "date": "April, 2023"
+        },
+        {
+          "id": 2,
+          "date": "May, 2023"
+        },
+        {
+          "id": 3,
+          "date": "June, 2023"
+        }
+      ]
+    }
+  ],
+  "keywords11": [
+    {
+      "id": 1,
+      "date":"June, 2023",
+      "contents": [
+        {
+          "id": 1,
+          "title": "Makale Başlık 1",
+          "authors": "Yazar 1, Yazar 2",
+          "journal": "Journal 1",
+          "volume": 5,
+          "issue": 8,
+          "abstract": "Buralar hep özet olacak...."
+        },
+        {
+          "id": 2,
+          "title": "Makale Başlık 2",
+          "authors": "Yazar 1, Yazar 2",
+          "journal": "Journal 2",
+          "volume": 7,
+          "issue": 3,
+          "abstract": "Buralar hep özet olacak.... dadasd aa as  lorem105"
+        },
+        {
+          "id": 3,
+          "title": "Makale Başlık 3",
+          "authors": "Yazar 1, Yazar 2, Yazar 4, Yazar8",
+          "journal": "Journal 87",
+          "volume": 2,
+          "issue": 6,
+          "abstract": "Bu öözetler boşuna le boşuna.... dadasd aa as  lorem105"
+        }
+      ]
+    }
+  ],
+  "keywords12": [
+    {
+      "id": 1,
+      "date":"August, 2023",
+      "contents": [
+        {
+          "id": 1,
+          "title": "Makale Başlık 12 Ağustos",
+          "authors": "Yazar Y, Yazar X",
+          "journal": "New Journal",
+          "link": "https://www.tandfonline.com/doi/abs/10.1080/1754730X.2013.784616",
+          "volume": 5,
+          "issue": 8,
+          "abstract": "öZETLER GELECEK BURALARA HEP fln fln fln"
+        },
+        {
+          "id": 2,
+          "title": "Makale Başlık 2",
+          "authors": "Yazar 1, Yazar 2",
+          "journal": "Journal 2",
+          "link": "https://www.tandfonline.com/doi/abs/10.1080/1754730X.2013.784616",
+          "volume": 7,
+          "issue": 3,
+          "abstract": "Buralar hep özet olacak.... dadasd aa as  lorem105"
+        },
+        {
+          "id": 3,
+          "title": "Makale Başlık 3",
+          "authors": "Yazar 1, Yazar 2, Yazar 4, Yazar8",
+          "journal": "Journal 87",
+          "link": "https://www.tandfonline.com/doi/abs/10.1080/1754730X.2013.784616",
+          "volume": 2,
+          "issue": 6,
+          "abstract": "Bu öözetler boşuna le boşuna.... dadasd aa as  lorem105"
+        }
+      ]
+    }
+  ],
+  "keywords21": [
+    {
+      "id": 1,
+      "date":"April, 2023",
+      "contents": [
+        {
+          "id": 1,
+          "title": "Makale Başlık 1",
+          "authors": "Yazar 1, Yazar 2",
+          "journal": "Journal 1",
+          "link": "https://www.tandfonline.com/doi/abs/10.1080/1754730X.2013.784616",
+          "volume": 5,
+          "issue": 8,
+          "abstract": "Buralar hep özet olacak...."
+        },
+        {
+          "id": 2,
+          "title": "Makale Başlık 2",
+          "authors": "Yazar 1, Yazar 2",
+          "journal": "Journal 2",
+          "link": "https://www.tandfonline.com/doi/abs/10.1080/1754730X.2013.784616",
+          "volume": 7,
+          "issue": 3,
+          "abstract": "Buralar hep özet olacak.... dadasd aa as  lorem105"
+        },
+        {
+          "id": 3,
+          "title": "Makale Başlık 3",
+          "authors": "Yazar 1, Yazar 2, Yazar 4, Yazar8",
+          "journal": "Journal 87",
+          "link": "https://www.tandfonline.com/doi/abs/10.1080/1754730X.2013.784616",
+          "volume": 2,
+          "issue": 6,
+          "abstract": "Bu öözetler boşuna le boşuna.... dadasd aa as  lorem105"
+        }
+      ]
+    }
+  ],
+  "mathematic": [
+    1, 2
+  ],
+  "autism": [
+    1
+  ]
+}

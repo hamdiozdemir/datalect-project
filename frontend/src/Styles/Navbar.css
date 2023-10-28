@@ -1,0 +1,45 @@
+/* .nav-link{
+    font-size: 1.25em;
+}
+.navbar-brand{
+    font-size: 1.25em;
+}
+ */
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=JetBrains+Mono:wght@500&display=swap');
+
+ *{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.03em;
+ }
+
+.navbar{
+   padding: 0;
+}
+
+.container-fluid{
+   background: #f08080;
+   padding: 8px;
+}
+
+
+ .navbar-brand{
+    font-weight: bold;
+    font-family: monospace;
+ }
+ 
+ .nav-item{
+    margin: 0 3px;
+    padding: 5px 15px;
+    border-radius: 8px;
+ }
+
+ .nav-item:hover{
+    background: rgb(232, 232, 232);
+ }
+ .current{
+    background: lightgray;
+ }
+ .navbar-right{
+    margin-left: auto;
+    margin-right: 10px;
+ }

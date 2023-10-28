@@ -1,0 +1,49 @@
+{
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "An error has accured !",
+    "save": "Save",
+    "saved": "Saved",
+    
+    "homepage": "Home",
+    "login": "Login",
+    "dontHaveAccount": "Don't have an account?",
+    "forgotPassword": "Forgot your password?",
+    "resetPassword": "Reset Password",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "passwordAgain": "Password Again",
+    "passwordNotMatching": "Password not matching.",
+    "education": "Degree",
+    "highSchool": "High School",
+    "asscoiateDegree": "Associate Degree",
+    "bachelor": "Bachelor",
+    "master": "Master",
+    "phd": "PhD",
+    "title": "Title",
+    "student": "Student",
+    "expert": "Expert (MsC, MA..)",
+    "doctorate": "Dr.",
+    "assocProf": "Assoc. Prof.",
+    "proffesor": "Proffesor",
+    "country": "Country",
+    "termAccept": "I have read and accept the terms of use.",
+    "optional": "Optional",
+    
+    "bulletins": "Bulletins",
+    "keywords": "Keywords",
+    "addKeyword": "Add New Keyword",
+
+    "all": "All",
+    "earlyChildhood": "Early Childhood",
+    "specialEducation": "Special Education",
+    "psychology": "Psychology",
+
+
+    "selectKeywordDate": "Please select a keyword and/or date for the list."
+
+
+
+}
